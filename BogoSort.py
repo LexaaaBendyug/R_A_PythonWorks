@@ -16,7 +16,7 @@ def shuffle_array(arr):
 def bogoSort(arr):
     while not sorted(arr):
         shuffle_array(arr)
-        print(arr)
+        print(f"Вывод каждой итерации :{arr}")
     return arr
 
 
